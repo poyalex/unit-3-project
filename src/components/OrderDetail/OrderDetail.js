@@ -43,7 +43,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
               </section>
             </>
             :
-            <div className={styles.fast}>fast?</div>
+            <div className={styles.fast}>Wanna go fast?</div>
           }
         </div>
       </div>

@@ -1,3 +1,4 @@
+import styles from './LoginForm.module.scss';
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
 
@@ -28,7 +29,7 @@ async function handleSubmit(evt) {
 }
 
 return (
-  <div>
+  <div classname ={styles.LoginForm} >
     <div className="form-container">
       <form autoComplete="off" onSubmit={handleSubmit}>
         <label>Email</label>
